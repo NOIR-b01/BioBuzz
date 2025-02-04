@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BiologyQuizApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Set background color to white -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+        <!-- Set text color to black -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+
+        <!-- Optionally, customize other colors -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BiologyQuizApplication" parent="Base.Theme.BiologyQuizApplication" />
+</resources>

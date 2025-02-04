@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Style for answer buttons -->
+    <style name="answer_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@drawable/answer_button</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:text">@string/answer_placeholder</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Style for basic text views -->
+    <style name="textViewBasicStyle">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/my_white</item>
+        <item name="android:layout_marginLeft">12dp</item>
+    </style>
+
+    <!-- Style for top bar text views -->
+    <style name="textViewTopBarStyle">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/my_white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:background">@drawable/main_background</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- Grey color -->
+    <color name="my_grey">#525151</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Default item (no state specified) -->
+    <item>
+        <shape>
+            <!-- Solid background color (jet color) for the drawable -->
+            <solid android:color="@color/jet" />
+
+            <!-- Rounded corners with a radius of 5sp -->
+            <corners android:radius="5sp" />
+
+            <!-- Red-colored border with a width of 2sp -->
+            <stroke android:color="@color/red" android:width="2sp" />
+        </shape>
+    </item>
+
+</selector>

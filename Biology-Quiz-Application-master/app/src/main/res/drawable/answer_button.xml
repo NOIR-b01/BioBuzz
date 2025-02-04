@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Item for the pressed state -->
+    <item android:state_pressed="true">
+        <shape>
+            <!-- Rounded corners with a radius of 15sp -->
+            <corners android:radius="15sp" />
+
+            <!-- White border with a width of 4sp when pressed -->
+            <stroke android:color="@color/white" android:width="4sp" />
+        </shape>
+    </item>
+
+    <!-- Item for the default state (not pressed) -->
+    <item>
+        <shape>
+            <!-- Rounded corners with a radius of 15sp -->
+            <corners android:radius="15sp" />
+
+            <!-- White border with a width of 3sp when not pressed -->
+            <stroke android:color="@color/white" android:width="3sp" />
+        </shape>
+    </item>
+</selector>

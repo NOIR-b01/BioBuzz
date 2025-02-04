@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context=".MainActivity">
+
+
+    <!-- Top bar containing score, percentage, and streak -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:background="@drawable/top_bar"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/textViewScore"
+            android:text="@string/score_placeholder"
+            style="@style/textViewTopBarStyle" />  <!-- Score text -->
+
+
+        <TextView
+            android:id="@+id/textViewPercentage"
+            android:text="@string/percent_placeholder"
+            style="@style/textViewTopBarStyle"
+            /> <!-- Percentage text -->
+
+        <TextView
+            android:id="@+id/textViewStreak"
+            android:text="@string/streak_placeholder"
+            style="@style/textViewTopBarStyle"
+            /> <!-- Streak text -->
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!-- Scrollable question container -->
+    <ScrollView
+        android:id="@+id/layoutQuestionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/question_container"
+        android:padding="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp">
+
+
+        <!-- Question text -->
+        <TextView
+            android:id="@+id/textViewQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/sample_question"
+            style="@style/textViewBasicStyle"
+            tools:ignore="ScrollViewSize" />  <!-- Display question -->
+
+        <!-- Container for answer buttons -->
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/layoutAnswersContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp">
+
+        <!-- Answer buttons -->
+        <androidx.appcompat.widget.AppCompatButton android:id="@+id/buttonAnswer1"
+            style="@style/answer_button_style"/>
+        <!-- Answer 1 -->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAnswer2"
+            style="@style/answer_button_style"/>
+        <!-- Answer 2 -->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAnswer3"
+            style="@style/answer_button_style"/>
+        <!-- Answer 3 -->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAnswer4"
+            style="@style/answer_button_style"
+
+            /> <!-- Answer 4 -->
+
+
+        <!-- Next button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/next_button"
+            android:layout_marginTop="32dp"
+            android:layout_marginHorizontal="8dp"
+            android:textColor="@color/my_white"
+            android:text="@string/next"
+            android:textSize="22sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold">    <!-- Next button -->
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

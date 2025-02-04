@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Default state item (no specific state, so this is the normal state) -->
+    <item>
+        <shape>
+
+            <!-- Set the background color of the shape to 'aqua_dark' -->
+            <solid android:color="@color/aqua_dark" />
+
+            <!-- Apply rounded corners with a radius of 25dp -->
+            <corners android:radius="25dp" />
+
+            <!-- Add a border (stroke) with a width of 2sp and color 'ic_launcher_background' -->
+            <stroke
+                    android:width="2sp"
+                    android:color="@color/ic_launcher_background" />
+        </shape>
+    </item>
+</selector>

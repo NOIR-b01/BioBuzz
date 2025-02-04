@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color> <!-- Text color -->
+    <color name="white">#FFFFFFFF</color> <!-- Background color -->
+
+    <!-- Custom Colors -->
+    <color name="my_white">#EBE9E9</color>
+    <color name="red">#C20000</color>
+    <color name="aqua">#42FFF9</color>
+    <color name="aqua_dark">#2AA09C</color>
+    <color name="aqua_darker">#1D716E</color>
+    <color name="jet">#383838</color>
+    <color name="my_black">#202020</color>
+    <color name="my_green">#4CAF50</color>
+</resources>

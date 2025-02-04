@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Default state item (no specific state, so this is the normal state) -->
+    <item>
+        <shape>
+            <!-- Set the background color of the shape to 'jet' -->
+            <solid android:color="@color/jet" />
+
+            <!-- Add a border (stroke) with a width of 2sp and color 'my_black' -->
+            <stroke android:width="2sp" android:color="@color/my_black" />
+        </shape>
+    </item>
+</selector>

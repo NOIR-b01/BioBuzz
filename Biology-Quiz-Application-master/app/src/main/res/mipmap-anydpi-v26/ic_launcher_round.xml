@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background of the icon, typically a color -->
+    <background android:drawable="@color/ic_launcher_background"/>
+
+    <!-- Foreground of the icon, typically an image or vector -->
+    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
+
+</adaptive-icon>
