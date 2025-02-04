@@ -13,6 +13,7 @@ FEATURES
   IMPORTANT
   - JDK version - 1.8
   - SDK version - 33
+  - something else is 8.0, can't pinpoint
 
 USUAGE
 ![photo_5836817515852974432_x](https://github.com/user-attachments/assets/45c15128-2a34-420b-9679-ffb67eb04e70)
